@@ -8,13 +8,14 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import com.google.gson.Gson;
 import controller.AvailabilityController;
-import model.Details;
+import model.Availability;
+
 
 public class ViewStockServlet extends HttpServlet {
 	   private static final long serialVersionUID = 1L;
 	   protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	          
-	       List<Details> list = null;
+	       List<Availability> list = null;
 	   try {
 	       AvailabilityController user = new AvailabilityController();
 	       list=user.viewStock();
