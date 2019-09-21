@@ -23,23 +23,4 @@ public class AdminServlet extends HttpServlet {
 	   out.flush();
 	}
 }
-	       /*AdminDetails admin = new AdminDetails();
-	       admin.setName(adminName);
-	       admin.setPassword(adminPassword);
-	       try {
-	    	   UserService service = new UserService();
-	    	   admin = service.adminLogin(admin);
-	    	   System.out.println(admin);
-	       }catch(Exception e) {
-	           e.printStackTrace();
-	       }
-	       if(admin.getName().equals("Admin")&&(admin.getPassword().equals("a@123"))) {
-	    	   response.sendRedirect("adminSetUp.jsp");
-	       }
-	       else {
-	          response.sendRedirect("index.jsp?message=Invalid Login Crendentials!!!");
-	       }*/
 	
-	
-
-
