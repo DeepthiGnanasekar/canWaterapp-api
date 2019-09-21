@@ -22,22 +22,5 @@ public class LoginServlet extends HttpServlet {
       out.flush();
     }
 }
-      /* UserDetails userDetails = null;
-       try {
-	       UserService service = new UserService();
-           userDetails = service.login(name,setPassword);
-  
-       }catch(Exception e) {
-           e.printStackTrace();
-       }
-       if(userDetails.getName()==(userDetails.getName())&& userDetails.getSetPassword()==(userDetails.getSetPassword())) {
-           response.sendRedirect("canSetUp.jsp");
-       }
-       else {
-           response.sendRedirect("index.jsp?message=Invalid Login Crendentials!!!");
-       }
-    } */
-
-
-
-
+ 
+     
